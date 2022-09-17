@@ -6,7 +6,7 @@ import { useEffect } from "react"
 
 
 export const Main = () => {
-  const [url,setUrl]=useState("http://gateway.marvel.com/v1/public/characters?ts=1&apikey=00909308f05690d39cf17923a6fb0776&hash=ea2286c32b7b1ebda6855a4aa3567372")
+  const [url,setUrl]=useState("https://gateway.marvel.com/v1/public/characters?ts=1&apikey=00909308f05690d39cf17923a6fb0776&hash=ea2286c32b7b1ebda6855a4aa3567372")
   const [item,setItem]=useState();
   const [search,setSearch]=useState("");
 
